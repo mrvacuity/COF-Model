@@ -1,0 +1,11 @@
+Flask
+gunicorn
+tensorflow
+numpy
+pillow
+
+g-cloud command 
+# api-project2-276800
+
+# gcloud builds submit --tag gcr.io/api-project2-276800/index
+# gcloud run deploy --image gcr.io/api-project2-276800/index --platform managed
